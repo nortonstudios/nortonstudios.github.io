@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head> 
+        <title>Norton Studios</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale =1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <style>
+            
+            .container-fluid{
+                padding: 60px 50px;
+            }
+
+            .jumbotron{
+                background-color: rgb(156, 187, 245);
+            }
+
+            .navbar {
+                margin-bottom: 0;
+                background-color: rgb(156, 187, 245);
+                z-index: 9999;
+                border: 0;
+                line-height: 1.42857143 !important;
+                letter-spacing: 4px;
+                border-radius: 0;
+            }
+
+            .navbar li a, .navbar .navbar-brand {
+                
+            }
+
+            .navbar-nav li a:hover, .navbar-nav li.active a {
+                background-color: #fff !important;
+            }
+
+            .navbar-default .navbar-toggle {
+                border-color: transparent;
+
+            }
+
+            ul.no-bullets{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            @media screen and (max-width: 768px) {
+                .col-sm-6 {
+                    text-align: center;
+                    margin: 25px 0;
+                }
+            }
+        </style>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">MN x NS</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron text-center">
+            <h1>Norton Studios</h1>
+            <p>An introduction to the work of Michael Norton</p>
+        </div>
+
+        <div class="container-fluid text-center" id="about">
+            <h2>About Me</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Intrests</h3>
+                    <p>Passionate software developer.  </p>
+                    <p>World traveler. </p> 
+                    <p>Driven to ameliorate and improve the human condition.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Skills</h3>
+                    <ul class="no-bullets">
+                        <li>C# .NET</li>
+                        <li>JavaScript</li>
+                        <li>HTML 5</li>
+                        <li>CSS</li>
+                        <li>Java</li> 
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>C++</li>
+                        <li>SOLID Design Patterns</li>
+                        <li>Design Patterns</li>
+                        <li>Object Oriented Programing</li>
+                        <li>Agile and Waterfall Projects</li> 
+                        <li>Large project planning</li> 
+                    </ul>    
+                </div>
+                <div class="col-sm-4">
+                    <h3>Technologies</h3>
+                    <ul class="no-bullets">
+                        <li>Test Driven Design</li>
+                        <li>Git version control </li>
+                        <li>Jira/Atlassian</li>
+                        <li>MS Project</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center" id="projects">
+            <h2>My Projects</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>To-do App</h3>
+                    <p>Built a to-do app using Node.js and Express.js to serve a dynamic web UI. </p>
+                    <p>Technologies: JavaScript, Node.js, Express.js, HTTP, HTML, CSS, JSON, Bootstrap, Mocha, TDD.</p>
+                    <a href="https://github.com/nortonstudios/to-do-app">View on Github</a>
+                </div>  
+                <div class="col-sm-6">
+                    <h3>Design Patterns</h3>
+                    <p>Implementing Gang of Four Design Patterns in C# to practice SOLID principles, test driven design, and extensible design. </p>
+                    <p>Technologies: C#, .NET, Unit testing (Xunit), TDD, Object oriented principles (OO/OOD).</p>
+                    <a href="https://github.com/nortonstudios/C-Sharp-Design-Patterns">View on Github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center" id="contact">
+            <h2>Contact Me</h2>
+            <!-- <div id="contact-form">
+                <p>Coming soon</p>
+                <p>blank form</p>
+            </div> -->
+            <div id="linkedin-link">
+                <!-- <p>linkedin logo</p> -->
+                <a href="https://www.linkedin.com/in/michael-norton-b9248864">Contact me via LinkedIn</a>
+                
+            </div>
+        </div>
+
+    </body>
+</html>
